@@ -1,6 +1,7 @@
 
-const greet = module.exports=function(name){
-  return 'Hello' + name;
+const greet = module.exports = function(name){
+  return 'Hello ' + name;
 
 };
-  console.log(greet(' Craig'));
+
+console.log(greet('Craig'));

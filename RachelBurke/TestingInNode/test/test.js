@@ -4,7 +4,7 @@ const greet = require(__dirname + '/../lib/greet');
 
 describe('greet', () => {
   it('should equal Hello World', () => {
-    expect(greet(' Craig')).to.eql('Hello Craig')
+    expect(greet(' Craig')).to.eql('Hello Craig');
   });
 
 });
