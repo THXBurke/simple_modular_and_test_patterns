@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const eslint = require('gulp-eslint');
 
-var files = ['index.js', 'lib/**/*.js', 'bin/*', 'gulpfile.js'];
+var files = ['index.js', 'lib/**/*.js', 'gulpfile.js'];
 
 gulp.task('lint:test', () => {
   return gulp.src('./test/**/*test.js')

@@ -1,6 +1,6 @@
 const chai = require('chai');
-const expect = require('chai').expect;
-const sayHello = require(__dirname + '/../lib/greet');
+const expect = chai.expect;
+const sayHello = require(__dirname + '../lib/greet');
 
 describe('greet', function(){
   it('should take use name parameter if no command line args', function() {
