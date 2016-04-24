@@ -1,10 +1,10 @@
 const greet = module.exports = {
   'greet': function(name){
     if(!process.argv[2]){
-      return('hello ' + name);
+      return('Hello ' + name);
     }
     else{
-      return('hello ' + process.argv[2]);
+      return('Hello ' + process.argv[2]);
     }
   }
 };
